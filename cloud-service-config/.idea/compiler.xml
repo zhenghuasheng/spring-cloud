@@ -22,21 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="cloud-eureka" />
         <module name="cloud-service-config" />
-        <module name="cloud-services-consumer" />
-        <module name="cloud-services-consumer-feign" />
-        <module name="cloud-services-consumer-ribbon" />
-        <module name="cloud-services-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-eureka" target="1.6" />
-      <module name="cloud-service-config" target="1.6" />
-      <module name="cloud-services-consumer" target="1.5" />
-      <module name="cloud-services-consumer-feign" target="1.6" />
-      <module name="cloud-services-consumer-ribbon" target="1.6" />
-      <module name="cloud-services-provider" target="1.6" />
+      <module name="cloud-service-config" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

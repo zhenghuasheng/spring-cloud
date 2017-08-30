@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-config/cloud-service-config.iml" filepath="$PROJECT_DIR$/cloud-service-config/cloud-service-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-services-consumer-feign/cloud-services-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-services-consumer-feign/cloud-services-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-services-consumer-ribbon/cloud-services-consumer-ribbon.iml" filepath="$PROJECT_DIR$/cloud-services-consumer-ribbon/cloud-services-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-services-provider/cloud-services-provider.iml" filepath="$PROJECT_DIR$/cloud-services-provider/cloud-services-provider.iml" />
