@@ -31,6 +31,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
+
     </dependencies>
     <dependencyManagement>
         <dependencies>
