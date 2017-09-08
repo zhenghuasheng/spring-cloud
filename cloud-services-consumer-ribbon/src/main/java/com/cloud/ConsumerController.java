@@ -27,7 +27,8 @@ public class ConsumerController {
 
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
-    public String add() {
+    @ResponseBody
+    public Map<String,Object> add() throws Exception {
         return computeService.addService();
     }
 
