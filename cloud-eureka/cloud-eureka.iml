@@ -44,13 +44,6 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-eureka-server:1.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:1.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.4.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.11" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.24" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.24" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:1.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:4.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:1.1.0.RELEASE" level="project" />
@@ -145,5 +138,16 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-commons-util:0.1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-eureka:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:1.4.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:4.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:4.1.4.RELEASE" level="project" />
   </component>
 </module>

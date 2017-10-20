@@ -31,6 +31,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
+        <!-- 服务端登录验证模块：进入 eureka 的网页时候需要输入登录密码的模块 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
 
     </dependencies>
     <dependencyManagement>
