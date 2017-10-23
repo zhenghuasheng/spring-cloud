@@ -1,6 +1,5 @@
 package com.cloud.service;
 
-import com.cloud.ComputeClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestParam;
 

@@ -35,7 +35,7 @@ public class ConsumerController {
     @RequestMapping("/name")
     @ResponseBody
     public Map<String,Object> getName() {
-        Map<String,Object> map = new HashMap<String, Object>();
+        Map<String,Object> map = new HashMap<String,Object>(2);
         map.put("name",this.name);
         return map;
     }

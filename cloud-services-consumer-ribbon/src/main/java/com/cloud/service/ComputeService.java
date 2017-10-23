@@ -1,6 +1,7 @@
 package com.cloud.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -23,16 +24,16 @@ public class ComputeService {
      * @return
      * @throws Exception
      */
-    @HystrixCommand(fallbackMethod = "addServiceFallback")
+    @HystrixCommand(fallbackMethod = "addServiceFallback",commandProperties = @HystrixProperty(name = "execution.isolation.strategy", value = "SEMAPHORE"))
     public Map<String,Object> addService() throws Exception {
-        Map<String,Object> map = new HashMap<String, Object>();
+        Map<String,Object> map = new HashMap<String,Object>(2);
         String result =  restTemplate.getForEntity("http://COMPUTE-SERVICE/add?a=10&b=20", String.class).getBody();
         map.put("addResult", result);
 //        throw new Exception("add error");
         return map;
     }
     public Map<String,Object> addServiceFallback() {
-        Map<String,Object> map = new HashMap<String, Object>();
+        Map<String,Object> map = new HashMap<String,Object>(2);
         map.put("error","error");
         return map;
     }

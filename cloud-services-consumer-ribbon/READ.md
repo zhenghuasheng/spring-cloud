@@ -1,0 +1,1 @@
+熔断器配置：https://my.oschina.net/u/162754/blog/1541400
